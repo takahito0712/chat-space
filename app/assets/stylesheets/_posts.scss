@@ -8,23 +8,23 @@
   display: flex;
   align-items: center;
   padding :0 20px;
-  }
-  &__side-header__box{
+  &__box{
    display: flex;
    justify-content: space-between;
    width: 100%;
    font-weight: bold;
    }
-  &__side-header__user-name {
+  &__user-name {
     color:white;
      font-size: 16px;
    }
-   &__side-header__box__menu {
+   &__box__menu {
    display: flex;
    font-size: 16px;
    padding: 0 0 0 40px;
-   }
   }
+ }
+}
   .side-header__btn {
     color: white;
     padding: 5px;
@@ -53,21 +53,20 @@
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #eeeeee;
-  }
-  &__main-header__left-box {
+  &__left-box {
     margin-top: 35px;
   }
-  &__main-header__left-box__group-name {
+  &__left-box__group-name {
     font-size: 20px;
     color: #333;
     margin-bottom: 15px;
   }
-  &__main-header__left-box__member-list {
+  &__left-box__member-list {
     display: flex;
     font-size: 12px;
     color: #999999;
   }
-  &__main-header__edit-btn {
+  &__edit-btn {
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
@@ -76,6 +75,7 @@
   position: absolute;
   right: 40px;
   color: #38aef0;
+  }
 }
   .messages {
  height: calc(100vh - 170px);
@@ -89,17 +89,17 @@
   .message__upper-info {
     display: flex;
     margin-bottom: 10px;
-  }
-  .message__upper-info__talker {
+  &__talker {
     color: #434a54;
     font-size: 16px;
     font-weight: bold;
   }
-  .message__upper-info__date {
+  &__date {
     color: #999999;
     font-size: 12px;
     margin-left: 10px;
   }
+}
   .message__text {
     color: #424a54;
     font-size: 14px;
@@ -119,9 +119,7 @@
   &__form__input-box {
     width: 100%;
     background-color: white;
-    
-  }
-  &__form__input-box__text {
+  &__text {
   height: 50px;
   width: 100%;
   padding: 0 40px 0 10px;
@@ -132,15 +130,16 @@
   background-color: white;
   position: relative;
    }
-   &__form__input-box__image {
+   &__image {
    font-size: 1.3rem;
    position: absolute;
    top: 10px;
    right: 10px;
    cursor: pointer;
    }
-  &__form__input-box__image__hidden {
+  &__image__hidden {
      display: none;
+  }
   }
   &__form__submit-btn {
   height: 50px;
