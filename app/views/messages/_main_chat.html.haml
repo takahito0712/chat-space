@@ -1,0 +1,31 @@
+.chat-main
+  .chat-main__main-header 
+    .chat-main__main-header__left-box
+      .chat-main__main-header__left-box__group-name
+        tttttt
+      .chat-main__main-header__left-box__member-list
+        member:
+        .chat-main__main-header__left-box__member-list__member
+          test
+    .chat-main__main-header__edit-btn
+      Edit
+  .messages
+    .messages__message
+      .message__upper-info
+        .message__upper-info__talker
+          test
+        .message__upper-info__date
+          2019/11/25(mon) xxxxxxxxx
+      .message__text
+        aaaaa
+  .form
+    .form__form
+      %input.form__form__input-box__text{name:"message", placeholder:"type a message", type:"text"}/
+      .form__form__input-box__text
+        .form__form__input-box__image
+          %label{class: "input-box__image"}
+            = icon('fas', 'image')
+            .form__form__input-box__image__hidden
+              %input{class:"form",type: "file"}
+      .form__form__submit-btn
+        Send
