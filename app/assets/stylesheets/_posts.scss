@@ -25,6 +25,7 @@
   }
 }
 .side-header__btn {
+
     color: white;
     padding: 5px;
    }
@@ -37,10 +38,12 @@
     font-size: 15px;
     margin-bottom: 5px;
     color: white;
+    text-decoration: none;
   }
-  &__latest-message{
+  &__group-message{
     font-size: 11px;
     color: white;
+    text-decoration: none;
   }
 }
 
@@ -149,3 +152,7 @@
      }
    }
  }
+
+.group-name{
+  text-decoration: none;
+}
