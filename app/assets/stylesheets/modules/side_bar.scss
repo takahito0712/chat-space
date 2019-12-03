@@ -35,7 +35,7 @@
     padding: 0 20px;
     .group {
       box-sizing: border-box;
-      
+      text-decoration: none;
       padding: 20px 0 40px;
       &__name {
         font-size: $side_group_name;
@@ -54,6 +54,8 @@
     }
    }
   }
-
+  a {
+    text-decoration: none;
+    }
 
   
