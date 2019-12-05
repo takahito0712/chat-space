@@ -31,6 +31,9 @@
 
   .groups {
     background-color: $side_blue_light;
+    overflow: scroll;
+    width: 300px;
+    box-sizing: border-box;
     height: calc(100vh - 100px);
     padding: 0 20px;
     .group {
