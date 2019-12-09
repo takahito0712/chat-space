@@ -76,7 +76,6 @@ $(function(){
         data: {last_id: last_message_id} //飛ばすデータは先ほど取得したlast_message_id。またparamsとして渡すためlast_idとする。
       })
       .done(function (messages) { //通信成功したら、controllerから受け取ったデータ（messages)を引数にとって以下のことを行う
-        // console.log(messages)
         var insertHTML = '';//追加するHTMLの入れ物を作る
         messages.forEach(function (message) {//配列messagesの中身一つ一つを取り出し、HTMLに変換したものを入れ物に足し合わせる
           insertHTML = buildHTML(message); //メッセージが入ったHTMLを取得
