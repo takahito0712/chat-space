@@ -72,3 +72,5 @@ gem 'carrierwave'
 gem 'mini_magick'
 
 gem 'pry-rails'
+ 
+gem 'fog-aws'
