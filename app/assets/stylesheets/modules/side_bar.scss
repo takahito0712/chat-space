@@ -9,8 +9,9 @@
   .header {
     background-color: $side_blue_dark;
     height: 100px;
-    line-height: 100px;
-    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 20px 0;
     &__name {
       display: inline-block;
       font-size: $side_header_font;
